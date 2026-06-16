@@ -1,7 +1,6 @@
 #nullable disable
 using HarmonyLib;
 using Il2Cpp;
-
 namespace ScavengeTweaks.Patches {
 
     [HarmonyPatch(typeof(Panel_BreakDown), nameof(Panel_BreakDown.Enable))]
@@ -77,6 +76,8 @@ namespace ScavengeTweaks.Patches {
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.cushionedChairATime; break;
                 case "OBJ_CushionedChairB_LOD0":
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.cushionedChairBTime; break;
+                case "OBJ_CushionedChairC_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.cushionedChairCTime; break;
 
                 // Bench
                 case "Obj_BenchC_Prefab":
