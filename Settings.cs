@@ -62,10 +62,30 @@ namespace ScavengeTweaks {
         [Slider(0.01f, 4f, 100, NumberFormat = "{0:0.00}h")]
         public float woodShelfBTime = 2.0f;
 
+        [Name("ST_LARGE_SHELF", Localize = true)]
+        [Description("ST_DESC_LARGE_SHELF", Localize = true)]
+        [Slider(0.01f, 6f, 100, NumberFormat = "{0:0.00}h")]
+        public float largeShelfTime = 2.0f;
+
+        [Name("ST_BEDROOM_SHELF", Localize = true)]
+        [Description("ST_DESC_BEDROOM_SHELF", Localize = true)]
+        [Slider(0.01f, 4f, 100, NumberFormat = "{0:0.00}h")]
+        public float bedroomShelfTime = 1.5f;
+
         [Name("ST_TABLE", Localize = true)]
         [Description("ST_DESC_TABLE", Localize = true)]
         [Slider(0.01f, 4f, 100, NumberFormat = "{0:0.00}h")]
         public float tableTime = 1.5f;
+
+        [Name("ST_DINING_TABLE", Localize = true)]
+        [Description("ST_DESC_DINING_TABLE", Localize = true)]
+        [Slider(0.01f, 4f, 100, NumberFormat = "{0:0.00}h")]
+        public float diningTableTime = 1.5f;
+
+        [Name("ST_END_TABLE", Localize = true)]
+        [Description("ST_DESC_END_TABLE", Localize = true)]
+        [Slider(0.01f, 2f, 100, NumberFormat = "{0:0.00}h")]
+        public float endTableTime = 0.63f;
 
         [Name("ST_CHAIR", Localize = true)]
         [Description("ST_DESC_CHAIR", Localize = true)]
@@ -81,6 +101,21 @@ namespace ScavengeTweaks {
         [Description("ST_DESC_BENCH_SMALL", Localize = true)]
         [Slider(0.01f, 2f, 100, NumberFormat = "{0:0.00}h")]
         public float benchSmallTime = 0.25f;
+
+        [Name("ST_CUSHIONED_BENCH", Localize = true)]
+        [Description("ST_DESC_CUSHIONED_BENCH", Localize = true)]
+        [Slider(0.01f, 6f, 100, NumberFormat = "{0:0.00}h")]
+        public float cushionedBenchTime = 2.5f;
+
+        [Name("ST_CUSHIONED_CHAIR_A", Localize = true)]
+        [Description("ST_DESC_CUSHIONED_CHAIR_A", Localize = true)]
+        [Slider(0.01f, 4f, 100, NumberFormat = "{0:0.00}h")]
+        public float cushionedChairATime = 0.75f;
+
+        [Name("ST_CUSHIONED_CHAIR_B", Localize = true)]
+        [Description("ST_DESC_CUSHIONED_CHAIR_B", Localize = true)]
+        [Slider(0.01f, 4f, 100, NumberFormat = "{0:0.00}h")]
+        public float cushionedChairBTime = 0.75f;
 
         [Name("ST_WORKBENCH", Localize = true)]
         [Description("ST_DESC_WORKBENCH", Localize = true)]

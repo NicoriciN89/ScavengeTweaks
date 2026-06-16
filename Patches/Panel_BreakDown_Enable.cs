@@ -51,20 +51,34 @@ namespace ScavengeTweaks.Patches {
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.woodShelfTime; break;
                 case "OBJ_WoodShelfB_LOD0":
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.woodShelfBTime; break;
+                case "OBJ_LargeShelfA_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.largeShelfTime; break;
+                case "OBJ_BedRoomShelfA_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.bedroomShelfTime; break;
 
-                // Table
+                // Tables
                 case "OBJ_TableSinkA_LOD0":
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.tableTime; break;
+                case "OBJ_DiningRoomTableB_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.diningTableTime; break;
+                case "OBJ_EndTableB_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.endTableTime; break;
 
                 // Chair
                 case "Obj_ChairWoodB_LOD0":
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.chairTime; break;
+                case "OBJ_CushionedChairA_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.cushionedChairATime; break;
+                case "OBJ_CushionedChairB_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.cushionedChairBTime; break;
 
                 // Bench
                 case "Obj_BenchC_Prefab":
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.benchTime; break;
                 case "Obj_BenchD_Prefab":
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.benchSmallTime; break;
+                case "OBJ_CushionedBenchB_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.cushionedBenchTime; break;
 
                 // Workbench
                 case "INTERACTIVE_WorkBench":

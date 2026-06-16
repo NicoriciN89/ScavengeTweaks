@@ -4,7 +4,7 @@ A MelonLoader mod for **The Long Dark** that lets you control how long it takes 
 
 ## Features
 
-- Adjust breakdown time for **22 objects** across two categories
+- Adjust breakdown time for **29 objects** across two categories
 - Settings saved automatically and persist between sessions
 - Supports **18 languages**: English, Russian, German, French, Spanish, Portuguese (BR), Italian, Dutch, Polish, Turkish, Chinese (Simplified), Chinese (Traditional), Korean, Japanese, Ukrainian, Swedish, Norwegian, Finnish
 
@@ -24,10 +24,17 @@ A MelonLoader mod for **The Long Dark** that lets you control how long it takes 
 | Boards (Large pile) | 2h |
 | Wooden Shelf | 1h 30min |
 | Wooden Shelf (Large) | 2h |
+| Large Shelf | 2h |
+| Bedroom Shelf | 1h 30min |
 | Wooden Table | 1h 30min |
+| Dining Table | 1h 30min |
+| End Table | 38min |
 | Wooden Chair | 45min |
+| Cushioned Chair | 45min |
+| Cushioned Armchair | 45min |
 | Bench | 1h |
 | Small Bench | 15min |
+| Cushioned Bench | 2h 30min |
 | Workbench | 4h |
 
 ### Metal Objects
