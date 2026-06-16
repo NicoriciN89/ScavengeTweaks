@@ -61,8 +61,14 @@ namespace ScavengeTweaks.Patches {
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.tableTime; break;
                 case "OBJ_DiningRoomTableB_LOD0":
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.diningTableTime; break;
+                case "OBJ_DiningRoomTableA_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.diningTableATime; break;
+                case "OBJ_CoffeeTableA_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.coffeeTableTime; break;
                 case "OBJ_EndTableB_LOD0":
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.endTableTime; break;
+                case "OBJ_EndTable_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.endTableATime; break;
 
                 // Chair
                 case "Obj_ChairWoodB_LOD0":
@@ -79,10 +85,18 @@ namespace ScavengeTweaks.Patches {
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.benchSmallTime; break;
                 case "OBJ_CushionedBenchB_LOD0":
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.cushionedBenchTime; break;
+                case "OBJ_CushionedBenchA_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.cushionedBenchATime; break;
 
                 // Workbench
                 case "INTERACTIVE_WorkBench":
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.workbenchTime; break;
+
+                // Lamps
+                case "OBJ_LampD_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.lampFloorTime; break;
+                case "OBJ_LampB_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.lampTableTime; break;
 
                 // Metal shelves
                 case "OBJ_MetalShelfA_LOD0":

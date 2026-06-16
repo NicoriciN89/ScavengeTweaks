@@ -82,10 +82,25 @@ namespace ScavengeTweaks {
         [Slider(0.01f, 4f, 100, NumberFormat = "{0:0.00}h")]
         public float diningTableTime = 1.5f;
 
+        [Name("ST_DINING_TABLE_A", Localize = true)]
+        [Description("ST_DESC_DINING_TABLE_A", Localize = true)]
+        [Slider(0.01f, 4f, 100, NumberFormat = "{0:0.00}h")]
+        public float diningTableATime = 1.5f;
+
+        [Name("ST_COFFEE_TABLE", Localize = true)]
+        [Description("ST_DESC_COFFEE_TABLE", Localize = true)]
+        [Slider(0.01f, 2f, 100, NumberFormat = "{0:0.00}h")]
+        public float coffeeTableTime = 0.63f;
+
         [Name("ST_END_TABLE", Localize = true)]
         [Description("ST_DESC_END_TABLE", Localize = true)]
         [Slider(0.01f, 2f, 100, NumberFormat = "{0:0.00}h")]
         public float endTableTime = 0.63f;
+
+        [Name("ST_END_TABLE_A", Localize = true)]
+        [Description("ST_DESC_END_TABLE_A", Localize = true)]
+        [Slider(0.01f, 2f, 100, NumberFormat = "{0:0.00}h")]
+        public float endTableATime = 0.63f;
 
         [Name("ST_CHAIR", Localize = true)]
         [Description("ST_DESC_CHAIR", Localize = true)]
@@ -107,6 +122,11 @@ namespace ScavengeTweaks {
         [Slider(0.01f, 6f, 100, NumberFormat = "{0:0.00}h")]
         public float cushionedBenchTime = 2.5f;
 
+        [Name("ST_CUSHIONED_BENCH_A", Localize = true)]
+        [Description("ST_DESC_CUSHIONED_BENCH_A", Localize = true)]
+        [Slider(0.01f, 6f, 100, NumberFormat = "{0:0.00}h")]
+        public float cushionedBenchATime = 3.0f;
+
         [Name("ST_CUSHIONED_CHAIR_A", Localize = true)]
         [Description("ST_DESC_CUSHIONED_CHAIR_A", Localize = true)]
         [Slider(0.01f, 4f, 100, NumberFormat = "{0:0.00}h")]
@@ -123,6 +143,16 @@ namespace ScavengeTweaks {
         public float workbenchTime = 4.0f;
 
         [Section("ST_SEC_METAL", Localize = true)]
+
+        [Name("ST_LAMP_FLOOR", Localize = true)]
+        [Description("ST_DESC_LAMP_FLOOR", Localize = true)]
+        [Slider(0.01f, 2f, 100, NumberFormat = "{0:0.00}h")]
+        public float lampFloorTime = 0.75f;
+
+        [Name("ST_LAMP_TABLE", Localize = true)]
+        [Description("ST_DESC_LAMP_TABLE", Localize = true)]
+        [Slider(0.01f, 2f, 100, NumberFormat = "{0:0.00}h")]
+        public float lampTableTime = 0.25f;
 
         [Name("ST_BED_FRAME", Localize = true)]
         [Description("ST_DESC_BED_FRAME", Localize = true)]
