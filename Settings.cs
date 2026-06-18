@@ -142,6 +142,11 @@ namespace ScavengeTweaks {
         [Slider(0.01f, 4f, 100, NumberFormat = "{0:0.00}h")]
         public float cushionedChairCTime = 0.63f;
 
+        [Name("ST_HAND_TRUCK", Localize = true)]
+        [Description("ST_DESC_HAND_TRUCK", Localize = true)]
+        [Slider(0.01f, 4f, 100, NumberFormat = "{0:0.00}h")]
+        public float handTruckTime = 1.5f;
+
         [Name("ST_WORKBENCH", Localize = true)]
         [Description("ST_DESC_WORKBENCH", Localize = true)]
         [Slider(0.01f, 8f, 100, NumberFormat = "{0:0.00}h")]

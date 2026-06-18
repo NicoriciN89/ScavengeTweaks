@@ -89,6 +89,10 @@ namespace ScavengeTweaks.Patches {
                 case "OBJ_CushionedBenchA_LOD0":
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.cushionedBenchATime; break;
 
+                // Hand truck
+                case "OBJ_HandTruckB_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.handTruckTime; break;
+
                 // Workbench
                 case "INTERACTIVE_WorkBench":
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.workbenchTime; break;
