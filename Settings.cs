@@ -107,6 +107,11 @@ namespace ScavengeTweaks {
         [Slider(0.01f, 4f, 100, NumberFormat = "{0:0.00}h")]
         public float chairTime = 0.5f;
 
+        [Name("ST_CHAIR_A", Localize = true)]
+        [Description("ST_DESC_CHAIR_A", Localize = true)]
+        [Slider(0.01f, 4f, 100, NumberFormat = "{0:0.00}h")]
+        public float chairATime = 1.5f;
+
         [Name("ST_BENCH", Localize = true)]
         [Description("ST_DESC_BENCH", Localize = true)]
         [Slider(0.01f, 4f, 100, NumberFormat = "{0:0.00}h")]

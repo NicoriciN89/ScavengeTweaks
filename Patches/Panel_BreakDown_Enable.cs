@@ -72,6 +72,8 @@ namespace ScavengeTweaks.Patches {
                 // Chair
                 case "Obj_ChairWoodB_LOD0":
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.chairTime; break;
+                case "Obj_ChairA_LOD0":
+                    __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.chairATime; break;
                 case "OBJ_CushionedChairA_LOD0":
                     __instance.m_BreakDown.m_TimeCostHours = Settings.Instance.cushionedChairATime; break;
                 case "OBJ_CushionedChairB_LOD0":
